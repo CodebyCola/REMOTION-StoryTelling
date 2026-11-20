@@ -1,0 +1,48 @@
+{
+  "name": "remotion-storytelling",
+  "version": "1.0.0",
+  "description": "Audio-driven portrait storytelling with reusable Remotion scenes",
+  "repository": {},
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "private": true,
+  "dependencies": {
+    "@fontsource/plus-jakarta-sans": "^5.3.0",
+    "@fontsource/silkscreen": "^5.3.0",
+    "@remotion/captions": "4.0.545",
+    "@remotion/cli": "4.0.545",
+    "@remotion/fonts": "4.0.545",
+    "@remotion/google-fonts": "4.0.545",
+    "@remotion/media": "4.0.545",
+    "@remotion/transitions": "4.0.545",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.545",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.545",
+    "@types/react": "19.3.0",
+    "@types/web": "0.0.166",
+    "eslint": "10.12.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render",
+    "sync": "node .agents/skills/remotion-storytelling/scripts/sync-episode.mjs",
+    "scaffold": "node .agents/skills/remotion-storytelling/scripts/scaffold.mjs",
+    "audit-style": "node .agents/skills/remotion-storytelling/scripts/audit-style.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src && tsc --noEmit",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "allowScripts": {
+    "esbuild": false
+  },
+  "type": "module"
+}

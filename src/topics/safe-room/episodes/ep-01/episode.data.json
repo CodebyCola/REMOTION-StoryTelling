@@ -1,0 +1,77 @@
+{
+  "topic": "safe-room",
+  "episode": "ep-01",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "totalDurationInFrames": 1637,
+  "bgm": null,
+  "parts": [
+    {
+      "id": "01-cold-path",
+      "index": 1,
+      "audioSrc": "topics/safe-room/ep-01/parts/01-cold-path.mp3",
+      "durationInSeconds": 10.997551020408164,
+      "durationInFrames": 330,
+      "startFrame": 0,
+      "hasCaptions": true,
+      "captions": [
+        {
+          "text": "Bayangkan, HP-mu tinggal sedikit.",
+          "startMs": 160,
+          "endMs": 2900
+        },
+        {
+          "text": "Setiap langkah terasa berbahaya,",
+          "startMs": 3600,
+          "endMs": 6220
+        },
+        {
+          "text": "sampai kamu melihat satu pintu bercahaya.",
+          "startMs": 7280,
+          "endMs": 10660
+        }
+      ]
+    },
+    {
+      "id": "02-relief",
+      "index": 2,
+      "audioSrc": "topics/safe-room/ep-01/parts/02-relief.mp3",
+      "durationInSeconds": 11.38938775510204,
+      "durationInFrames": 342,
+      "startFrame": 330,
+      "hasCaptions": false,
+      "captions": []
+    },
+    {
+      "id": "03-signals",
+      "index": 3,
+      "audioSrc": "topics/safe-room/ep-01/parts/03-signals.mp3",
+      "durationInSeconds": 12.120816326530612,
+      "durationInFrames": 364,
+      "startFrame": 672,
+      "hasCaptions": false,
+      "captions": []
+    },
+    {
+      "id": "04-meaning",
+      "index": 4,
+      "audioSrc": "topics/safe-room/ep-01/parts/04-meaning.mp3",
+      "durationInSeconds": 11.467755102040817,
+      "durationInFrames": 345,
+      "startFrame": 1036,
+      "hasCaptions": false,
+      "captions": []
+    },
+    {
+      "id": "05-loop-path",
+      "index": 5,
+      "audioSrc": "topics/safe-room/ep-01/parts/05-loop-path.mp3",
+      "durationInSeconds": 8.51591836734694,
+      "durationInFrames": 256,
+      "startFrame": 1381,
+      "hasCaptions": false,
+      "captions": []
+    }
+  ]
+}
